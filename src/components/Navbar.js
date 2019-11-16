@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light peach-gradient sticky-top">
+    <nav className="navbar navbar-expand-lg navbar-dark red darken-3 sticky-top">
 
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content">
         <span className="navbar-toggler-icon"></span>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Card({ title, image, description, publishedAt, source }) {
+export default function Card({ title, image, description, publishedAt, source, article }) {
   const date = new Date(publishedAt)
   return (
     <div className="card my-4 mx-3 card-noticia" style={{width: '16 rem'}}>
@@ -19,7 +19,13 @@ export default function Card({ title, image, description, publishedAt, source })
             {`${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`} - fonte: {source}
           </small>
         </p>
-        <Link to='/a' className="stretched-link" />
+        <Link
+          to={{
+            pathname: '/noticia',
+            state: { article }
+          }}
+          className="stretched-link"
+        />
       </div>
     </div>
   )

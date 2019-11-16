@@ -29,6 +29,7 @@ export default function Home() {
             description={article.description}
             publishedAt={article.publishedAt}
             source={article.source.name}
+            article={article}
           />
         ))}
         <Card

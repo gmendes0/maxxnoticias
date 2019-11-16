@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-export default function Card({ title, image }) {
+export default function Card({ title, image, description, publishedAt, source }) {
+  const date = new Date(publishedAt)
   return (
     <div className="card my-4 mx-3 card-noticia" style={{width: '16 rem'}}>
       <img className="card-img-top" src={image} alt=""/>
@@ -9,11 +11,15 @@ export default function Card({ title, image }) {
           {title}
         </p>
         <p className="card-text truncate">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos praesentium tempore sequi illum rem eius. Vel deleniti, veniam labore suscipit sit iure nulla quam harum, ab, minima enim iste tempore.
+          {description}
         </p>
         <hr/>
-        <p className="card-text"><small className="text-muted">14/11/2019</small></p>
-        <span><a className="stretched-link" href="./noticia"></a></span>
+        <p className="card-text">
+          <small className="text-muted">
+            {`${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`} - fonte: {source}
+          </small>
+        </p>
+        <Link to='/a' className="stretched-link" />
       </div>
     </div>
   )

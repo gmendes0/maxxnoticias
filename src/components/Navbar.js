@@ -8,7 +8,7 @@ export default function Navbar() {
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <span className="navbar-brand h1">Maxx</span>
+      <span className="navbar-brand h1">Maxx notícias</span>
 
       <div className="collapse navbar-collapse" id="nav-content">
         <ul className="navbar-nav">

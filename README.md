@@ -13,6 +13,6 @@ Para utilizar esta aplicação, é necessário que sua máquina tenha os seguint
 
 - Novamente no terminal, digite o comando `yarn build` ou `npm run build` para gerar o código final da aplicação.
 
-- Após isso será necessário ter o pacote `serve` instalado de forma global para gerar um servidpr estático, portanto, caso não possua o pacote, digite no terminal o comando `yarn global add serve` ou `npm install serve --global`.
+- Após isso será necessário ter o pacote `serve` instalado de forma global para gerar um servidor estático, portanto, caso não possua o pacote, digite no terminal o comando `yarn global add serve` ou `npm install serve --global`.
 
-- Feito isso, digite no terminal o comando `serve -s build` para criar um servidor local com a pasta `build`. será exibida uma mensagem no terminal com o endereço local e endereço de rede no qual a aplicação ficará disponível. Então, basta abrir o endereço `ex: http://localhost:5000` no browser.
+- Feito isso, digite no terminal o comando `serve -s build` para criar um servidor local com a pasta `build`. será exibida uma mensagem no terminal com o endereço local e endereço de rede no qual a aplicação ficará disponível. Então, basta abrir o endereço fornecido (`ex: http://localhost:5000`) no browser.

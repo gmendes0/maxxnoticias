@@ -4,8 +4,8 @@ export default function Article(props) {
   const published = (props.location && props.location.state && props.location.state.article) ? new Date(props.location.state.article.publishedAt) : ''
   return(
     <>
-      {(props.location && props.location.state && props.location.state.article) &&
-        <div className="container">
+      <div className="container">
+        {(props.location && props.location.state && props.location.state.article) &&
 
           <div className="mt-5">
             
@@ -20,7 +20,7 @@ export default function Article(props) {
               <p className="h6 px-5 col-sm-10">por {props.location.state.article.author ? props.location.state.article.author : 'Desconhecido'}</p>
             </div>
             <div className="row justify-content-center mb-5">
-              <small className="px-5 col-sm-10">publicado em: {`${published.getDate()}/${published.getMonth()}/${published.getFullYear()} às ${published.getHours()}:${published.getMinutes()}`}</small>
+              <small className="px-5 col-sm-10">publicado em: {`${published.getDate()}/${published.getMonth()}/${published.getFullYear()}`}</small>
             </div>
 
             <hr/>
@@ -32,8 +32,8 @@ export default function Article(props) {
                   {props.location.state.article.content}
                 </p>
 
-                <p className="h6 font-weight-normal">
-                  Veja a notícia completa em: <a href={props.location.state.article.url}>{props.location.state.article.url}</a>
+                <p className="h6 font-weight-normal text-center">
+                  <a className="btn btn-success" href={props.location.state.article.url}>Clique e veja a notícia completa</a>
                 </p>
             </div>
 
@@ -46,8 +46,8 @@ export default function Article(props) {
               </div>
             </div>
           </div>
-        </div>
-      }
+        }
+      </div>
     </>
   )
 }

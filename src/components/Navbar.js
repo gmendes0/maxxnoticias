@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="collapse navbar-collapse" id="nav-content">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a href="/" className="nav-link">Home</a>
+            <a href="/" className="nav-link">Início</a>
           </li>
         </ul>
         <ul className="navbar-nav ml-auto">

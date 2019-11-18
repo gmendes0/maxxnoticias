@@ -1,0 +1,43 @@
+{
+  "articles": [
+    {
+      "author": "Lorem Ipsum",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu odio accumsan, hendrerit eros nec, finibus leo. Fusce nec mollis turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent maximus risus non libero gravida euismod vitae non est. Vivamus vel lacinia mauris, vitae finibus nisi. Donec maximus purus quis massa interdum, non tincidunt mauris semper. Curabitur sit amet augue ut elit maximus volutpat. Vestibulum nec odio risus. Vivamus consequat varius ex at congue. Pellentesque nibh quam, consequat eu erat et, lobortis condimentum velit. Duis eget lectus cursus, interdum augue nec, suscipit tortor. Integer ut ornare sapien. Vivamus imperdiet orci eget lacinia ornare.",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sunt expedita commodi eius repellat odio id atque facilis quas, sapiente molestias magni, tempore voluptate obcaecati accusamus incidunt ut illum iusto?",
+      "publishedAt": "2019-11-15T20:02:00Z",
+      "source": {
+        "id": null,
+        "name": "Lorem Ipsum"
+      },
+      "title": "Lorem Ipsum",
+      "url": "https://www.lipsum.com/",
+      "urlToImage": "./assets/img/noticias/00.jpeg"
+    },
+    {
+      "author": "Lorem Ipsum",
+      "content": "Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas ornare sapien vel justo blandit porttitor. Aliquam ut magna nunc. Nullam mi leo, iaculis et nulla et, ullamcorper luctus leo. Donec urna libero, ultricies et eros at, lobortis ullamcorper erat. Sed vitae tellus aliquet, aliquam odio sed, hendrerit tellus. Aliquam cursus tristique purus, quis efficitur erat ornare a. Aliquam malesuada massa arcu, at lacinia arcu cursus eu. Nullam quis lectus nec orci maximus vehicula nec et lacus.",
+      "description": "Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas ornare sapien vel justo blandit porttitor. Aliquam ut magna nunc. Nullam mi leo, iaculis et nulla et, ullamcorper luctus leo.",
+      "publishedAt": "2019-11-15T20:02:00Z",
+      "source": {
+        "id": null,
+        "name": "Lorem Ipsum"
+      },
+      "title": "Interdum et malesuada fames ac ante ipsum primis in faucibus",
+      "url": "https://www.lipsum.com/",
+      "urlToImage": "./assets/img/noticias/01.jpeg"
+    },
+    {
+      "author": "Lorem Ipsum",
+      "content": "Pellentesque a leo dictum, elementum diam a, suscipit purus. Morbi porta tincidunt lorem, quis dictum massa commodo non. Morbi luctus, ex in dapibus fringilla, arcu felis convallis massa, ac dictum neque lorem vitae lectus. Vestibulum lacinia pharetra congue. Mauris et volutpat est, a tristique erat. Vestibulum tempus mauris consectetur ullamcorper dapibus. Duis placerat metus odio, ut pellentesque diam fringilla non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper metus lacinia, luctus justo nec, pharetra magna. Suspendisse eleifend tristique risus, id consequat leo varius eu. Curabitur id risus mollis, sodales nibh ut, bibendum nunc. Donec tempus elit sit amet dui lacinia, tristique venenatis nulla molestie. Proin eu sem efficitur, porttitor lorem vel, condimentum metus. In malesuada dolor quis sem finibus aliquet. Mauris semper felis nec faucibus lacinia.",
+      "description": "Pellentesque a leo dictum, elementum diam a, suscipit purus. Morbi porta tincidunt lorem, quis dictum massa commodo non. Morbi luctus, ex in dapibus fringilla, arcu felis convallis massa, ac dictum neque lorem vitae lectus. Vestibulum lacinia pharetra congue. Mauris et volutpat est, a tristique erat.",
+      "publishedAt": "2019-11-15T20:02:00Z",
+      "source": {
+        "id": null,
+        "name": "Lorem Ipsum"
+      },
+      "title": "Pellentesque a leo dictum, elementum diam a, suscipit purus. Morbi porta tincidunt lorem, quis dictum massa commodo non.",
+      "url": "https://www.lipsum.com/",
+      "urlToImage": "./assets/img/noticias/02.jpeg"
+    }
+  ]
+}

@@ -84,7 +84,7 @@ export default function Contact() {
 
               <div className="col-12 col-sm-10">
                 <input className="form-control" type="text" name="phone" id="phone" maxLength="11"
-                  placeholder="seu telefone" onChange={event => setPhone(event.target.value)} value={phone.replace(/\D/g, '')}/>
+                  placeholder="DDD + Telefone" onChange={event => setPhone(event.target.value)} value={phone.replace(/\D/g, '')}/>
               </div>
             </div>
 

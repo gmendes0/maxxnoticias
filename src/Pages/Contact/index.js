@@ -34,11 +34,16 @@ export default function Contact() {
     return {valid: true, message: `menssagem enviada com sucesso.`}
   }
 
+  function trimmed(array) {
+    return array.map(item => item.trim())
+  }
+
   function handleSubmit(event) {
     event.preventDefault()
     const validateObject = validate()
     if (validateObject.valid) {
-      console.log({ name, email, phone, message })
+      const send = trimmed([name, email, phone, message])
+      console.log({ send })
     }
     setValidator(validateObject)
   }

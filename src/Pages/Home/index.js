@@ -48,14 +48,14 @@ export default function Home() {
         </>
       )}
       <div className="card-columns">
+        {data.articles.map((article, id) => (
+          <Card key={id} article={article} />
+        ))}
         {news.map((article, id) => (
           <Card
             key={id}
             article={article}
           />
-        ))}
-        {data.articles.map((article, id) => (
-          <Card key={id} article={article} />
         ))}
       </div>
       {(!loading && alert) && (
